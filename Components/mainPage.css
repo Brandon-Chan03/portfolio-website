@@ -1,0 +1,42 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    color: red;
+    padding-left: 1rem;
+}
+
+/* #logo {
+    width: 500px;
+    height: 150px;
+} */
+
+header {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav li {
+    padding: 0px 1rem;
+    font-size: 1.25rem;
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+nav a:visited {
+    color: green;
+}
+
