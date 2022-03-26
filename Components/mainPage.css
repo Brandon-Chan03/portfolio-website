@@ -1,26 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap");
+
 html {
     font-size: 16px;
 }
 
 body {
-    background-color: white;
-    background-color: rgb(10, 25, 47);
+    background-color: #0a192f;
     margin: 0;
 }
 
-h1 {
+.logo {
     color: seashell    ;
     padding-left: 1rem
-}
-
-h2 {
-    color: seashell;
-    padding-left: 1rem;
-}
-
-p {
-    color:rgb(204, 214, 246);
-    padding-left: 1rem;
 }
 
 /* #logo {
@@ -33,7 +24,7 @@ header {
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(10, 25, 47, 0.5);
+    background-color: rgba(10, 25, 47, 0.85);
 }
 
 nav li {
@@ -50,6 +41,55 @@ nav a {
 nav a:visited {
     color: rgb(204, 214, 246);
 }
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.introduction {
+    margin-top: 10rem;
+    border: 1px solid red;
+}
+
+.greeting {
+    color: rgb(100, 255, 218);
+    font-size: 1.2rem;
+    margin: 0 0;
+    font-family: "Red Hat Mono";
+    /* font-weight: 300; */
+}
+
+.introduction-name {
+    color: rgb(204, 214, 246);
+    font-size: 5rem;
+    margin: 0 0;
+}
+
+.introduction-title {
+    color: rgb(136, 146, 176);
+    font-size: 5rem;
+    margin: 0 0;
+}
+
+.quick-summary {
+    color: rgb(136, 146, 176);
+    font-size: 1.25rem;    
+    margin: 0 0;
+    line-height: 25px;
+}
+
+/* .salutation,
+.name,
+.title,
+.quick-summary {
+    border: 1px solid yellow;
+    box-sizing: border-box;
+} */
+
+
+
+
 
 
 
