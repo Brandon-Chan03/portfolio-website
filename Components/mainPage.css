@@ -4,10 +4,22 @@ html {
 
 body {
     background-color: white;
+    background-color: rgb(10, 25, 47);
+    margin: 0;
 }
 
 h1 {
-    color: red;
+    color: seashell    ;
+    padding-left: 1rem
+}
+
+h2 {
+    color: seashell;
+    padding-left: 1rem;
+}
+
+p {
+    color:rgb(204, 214, 246);
     padding-left: 1rem;
 }
 
@@ -21,7 +33,7 @@ header {
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
-
+    background-color: rgba(10, 25, 47, 0.5);
 }
 
 nav li {
@@ -35,8 +47,10 @@ nav a {
     color: white;
 }
 
-
 nav a:visited {
-    color: green;
+    color: rgb(204, 214, 246);
 }
+
+
+
 
