@@ -184,4 +184,15 @@ hr {
     border: 1px solid rgb(100, 255, 218);
 }
 
+footer {
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    display: flex;
+    justify-content: center; 
+    margin-top: 20rem;
+}
+
+footer h1 {
+    color: seashell;
+}
+
 
