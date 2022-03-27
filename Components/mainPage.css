@@ -46,7 +46,7 @@ nav a {
 }
 
 nav a:visited {
-    color: rgb(204, 214, 246);
+    color: rgb(100, 255, 218);
 }
 
 main {
@@ -99,7 +99,7 @@ main {
     height: 3.5rem;
     border-color: rgb(100, 255, 218);
     background-color: transparent;
-    color: rgb(100, 255, 218);
+    color: </div>;
     cursor: pointer;
     border-radius: 0.5rem;
 }
@@ -111,6 +111,7 @@ main {
 .resume-link {
     text-decoration: none;
     font-family: "Red Hat Mono";
+    color: rgb(100, 255, 218);
     font-weight: 600;
     font-size: 1rem;
 }
@@ -176,6 +177,8 @@ hr {
     margin-left: 3rem;
     margin-bottom: 8rem;
     border-radius: 0.5rem;
+    padding: 5px;
+    border: 1px solid rgb(100, 255, 218);
 }
 
 
