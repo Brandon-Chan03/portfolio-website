@@ -1,4 +1,4 @@
-/* Imports the fonts Red Hat Mono and Oxygen*/
+/* Imports the fonts Red Hat Mono and Oxygen */
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
 
@@ -29,7 +29,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: rgba(10, 25, 47, 0.5);
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
 }
 
 nav li {
