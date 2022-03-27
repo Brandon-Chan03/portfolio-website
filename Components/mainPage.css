@@ -26,7 +26,7 @@ body {
 
 header {
     width: 100%;
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgba(10, 25, 47, 0.5);
@@ -37,7 +37,7 @@ nav li {
     padding: 0px 1rem;
     font-size: 1rem;
     display: inline;
-    font-family: "Red Hat Mono"
+    font-family: "Red Hat Mono";
 }
 
 nav a {
@@ -59,7 +59,6 @@ main {
 .summary-introduction {
     margin-top: 10rem;
 }
-
 
 .greeting {
     color: rgb(100, 255, 218);
@@ -128,10 +127,6 @@ main {
     box-sizing: border-box;
 } */
 
-#about-me {
-    margin-top: 16rem;
-}
-
 .about-me-heading {
     color: rgb(100, 255, 218);
     font-size: 2rem;
@@ -140,23 +135,47 @@ main {
     font-weight: 600;
 }
 
-footer {
-    margin-top: 20rem;
-    border-top: 1px solid rgba(255, 255, 255, .1);
-    text-align: center;
-}
-
-footer h1 {
-    color: seashell
-}
-
 hr {
-    margin-right: 50rem;
     border-color: rgba(255, 255, 255, .1);
     background-color: rgba(255, 255, 255, .1);
 }
 
+.about-me-section {
+    margin-top: 20rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 
+#about-me {
+    width: 30rem;
+}
 
+.info-about-me,
+.info-continued,
+.info-continued-2 {
+    color: rgb(136, 146, 176);
+    font-size: 1.1rem;
+    font-family: "Oxygen";
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.info-continued {
+    margin-top: 0;
+}
+
+.info-continued-2 {
+    margin-top: 0;
+}
+
+.brandon-chan {
+    height: 20rem;
+    width: 17rem;
+    float: right;
+    margin-left: 3rem;
+    margin-bottom: 8rem;
+    border-radius: 0.5rem;
+}
 
 
