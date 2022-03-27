@@ -111,7 +111,6 @@ main {
 .resume-link {
     text-decoration: none;
     font-family: "Red Hat Mono";
-    color: rgb(100, 255, 218);
     font-weight: 600;
     font-size: 1rem;
 }
@@ -129,7 +128,7 @@ main {
 } */
 
 .about-me-heading {
-    color: rgb(100, 255, 218);
+    color: rgb(204, 214, 246);
     font-size: 2rem;
     margin: 0 0 0 .3rem;
     font-family: "Red Hat Mono";
@@ -168,6 +167,10 @@ hr {
 
 .info-continued-2 {
     margin-top: 0;
+}
+
+.about-me-info span {
+    color:rgba(100, 255, 218, 0.8)
 }
 
 .brandon-chan {
