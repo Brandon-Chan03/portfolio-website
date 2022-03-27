@@ -4,10 +4,11 @@
 
 html {
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 body {
-    background-color: #0a192f;
+    background-color: rgb(5, 25, 47);
     margin: 0;
 }
 
@@ -50,23 +51,22 @@ nav a:visited {
 
 main {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 15rem;
 }
 
 .summary-introduction {
-    display: inline-block;
-}
-
-.introduction {
     margin-top: 10rem;
 }
 
+
 .greeting {
     color: rgb(100, 255, 218);
-    font-size: 1.2rem;
-    margin: 0 0;
+    font-size: 1rem;
+    margin: 0 0 0 .3rem;
     font-family: "Red Hat Mono";
-    /* font-weight: 300; */
+    font-weight: 300;
 }
 
 .introduction-name {
@@ -88,14 +88,14 @@ main {
 .quick-summary {
     color: rgb(136, 146, 176);
     font-size: 1.25rem;    
-    margin: 0 0;
+    margin: 0 0 0 .3rem;
     line-height: 25px;
     font-family: "Oxygen";
     font-weight: 300;
 }
 
 .resume {
-    margin-top: 1rem;
+    margin: 1rem 0 0 .3rem;
     width: 15rem;
     height: 3.5rem;
     border-color: rgb(100, 255, 218);
@@ -128,8 +128,33 @@ main {
     box-sizing: border-box;
 } */
 
+#about-me {
+    margin-top: 16rem;
+}
 
+.about-me-heading {
+    color: rgb(100, 255, 218);
+    font-size: 2rem;
+    margin: 0 0 0 .3rem;
+    font-family: "Red Hat Mono";
+    font-weight: 600;
+}
 
+footer {
+    margin-top: 20rem;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    text-align: center;
+}
+
+footer h1 {
+    color: seashell
+}
+
+hr {
+    margin-right: 50rem;
+    border-color: rgba(255, 255, 255, .1);
+    background-color: rgba(255, 255, 255, .1);
+}
 
 
 
