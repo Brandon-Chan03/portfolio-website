@@ -129,6 +129,7 @@ main {
     font-size: 2rem;
     font-family: "Red Hat Mono";
     font-weight: 600;
+    margin-bottom: 0;
 }
 
 hr {
@@ -139,9 +140,8 @@ hr {
 .about-me-section {
     margin-top: 20rem;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-right: 3.3rem;
+    align-items: flex-start;
+    /* margin-right: 3.3rem; */
 }
 
 #about-me {
@@ -174,11 +174,32 @@ hr {
     height: 20rem;
     width: 17rem;
     float: right;
-    margin-left: 3rem;
-    margin-bottom: 8rem;
+    margin: 5rem 3rem 2rem 3rem;
     border-radius: 0.5rem;
     padding: 5px;
     border: 1px solid rgb(100, 255, 218);
+}
+
+.technologies {
+    margin-top: 28rem;
+    margin-left: 0.5rem;
+    display: grid;
+    outline: 1px solid red;
+    width: 25rem;
+    height: 15rem;
+    grid-template: repeat(4, 1fr) repeat(2, 1fr);
+}
+
+.skills-list li {
+    list-style-type: none;
+    color: rgb(136, 146, 176);
+    margin-top: 1rem;
+    
+}
+
+.skills-list li::before {
+    content: "►";
+    margin-right: 0.5rem;
 }
 
 footer {
