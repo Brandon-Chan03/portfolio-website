@@ -33,20 +33,20 @@ header {
     border-bottom: 1px solid rgba(255, 255, 255, .1);
 }
 
-nav li {
+.main-links li {
     padding: 0px 1rem;
     font-size: 1rem;
     display: inline;
     font-family: "Red Hat Mono";
 }
 
-nav a {
+.main-links a {
     text-decoration: none;
     color: white;
 }
 
-nav a:visited {
-    color: rgb(100, 255, 218);
+.main-links a:hover {
+    color:rgb(204, 214, 246);
 }
 
 main {
@@ -116,16 +116,8 @@ main {
     color: rgb(100, 255, 218);
 }
 
-/* .salutation,
-.name,
-.title,
-.quick-summary {
-    border: 1px solid yellow;
-    box-sizing: border-box;
-} */
-
 .about-me-heading {
-    color: rgb(204, 214, 246);
+    color: rgb(100, 255, 218);
     font-size: 2rem;
     font-family: "Red Hat Mono";
     font-weight: 600;
@@ -138,10 +130,8 @@ hr {
 }
 
 .about-me-section {
-    margin-top: 20rem;
+    margin-top: 30rem;
     display: flex;
-    align-items: flex-start;
-    /* margin-right: 3.3rem; */
 }
 
 #about-me {
@@ -167,14 +157,14 @@ hr {
 }
 
 .about-me-info span {
-    color:rgba(100, 255, 218, 0.8)
+    color:rgb(100, 255, 218)
 }
 
 .brandon-chan {
     height: 20rem;
     width: 17rem;
     float: right;
-    margin: 5rem 3rem 2rem 3rem;
+    margin: 5rem 3rem 1rem 3rem;
     border-radius: 0.5rem;
     padding: 5px;
     border: 1px solid rgb(100, 255, 218);
@@ -183,18 +173,18 @@ hr {
 .technologies {
     margin-top: 28rem;
     margin-left: 0.5rem;
+}
+
+.skills-list {
     display: grid;
-    outline: 1px solid red;
-    width: 25rem;
-    height: 15rem;
-    grid-template: repeat(4, 1fr) repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
 }
 
 .skills-list li {
     list-style-type: none;
     color: rgb(136, 146, 176);
     margin-top: 1rem;
-    
 }
 
 .skills-list li::before {
